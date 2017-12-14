@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.24.1",
+    "history": "^4.7.2",
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
