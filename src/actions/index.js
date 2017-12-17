@@ -26,3 +26,9 @@ export function authError(error) {
         payload: error
     }
 }
+
+export function signOutUser() {
+    localStorage.removeItem('token');
+
+    return { type: UNAUTH_USER };
+}
